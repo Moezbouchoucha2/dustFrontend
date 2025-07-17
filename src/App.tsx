@@ -1,7 +1,7 @@
-"use client"
-
 import { AppLayout } from "./components/layout/app-layout"
 
-export default function AIChatInterface() {
+function App() {
   return <AppLayout />
 }
+
+export default App

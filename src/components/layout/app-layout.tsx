@@ -15,10 +15,8 @@ function AppContent() {
     <div className="flex flex-col h-screen bg-background text-foreground">
       <Navbar />
       <div className="flex flex-1 overflow-hidden">
-        <Sidebar /> {/* Sidebar is always rendered */}
+        <Sidebar />
         <div className="flex-1 overflow-auto">
-          {" "}
-          {/* Main content area */}
           {isInChat ? <ChatInterface /> : <MainChatArea />}
         </div>
       </div>
